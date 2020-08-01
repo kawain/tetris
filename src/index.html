@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>テトリス | Тетрис</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: #000;
+            color: blanchedalmond;
+        }
+
+        a {
+            color: blanchedalmond;
+        }
+
+        .canvas-container {
+            width: 500px;
+            margin: 0 auto;
+        }
+
+        canvas {
+            background-color: rgb(233, 221, 221);
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="canvas-container my-2">
+        <h1 class="text-center h3">
+            <a href="https://ja.wikipedia.org/wiki/%E3%83%86%E3%83%88%E3%83%AA%E3%82%B9">テトリス</a>
+        </h1>
+        <p class="text-center">操作方法：⬆ ➡ ⬇ ⬅ または W A S D</p>
+        <p class="text-center d-none" id="restart_btn"><a class="btn btn-warning" href="./index.html">再挑戦</a></p>
+        <canvas id="canvas" width="500" height="600"></canvas>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

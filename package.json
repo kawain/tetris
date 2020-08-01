@@ -1,0 +1,14 @@
+{
+  "name": "tetris",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "npx parcel src/index.html --open --no-source-maps",
+    "build": "npx parcel build src/index.html --no-source-maps --public-url ./ -d docs"
+  },
+  "dependencies": {
+    "lodash": "^4.17.19"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10"
+  }
+}
